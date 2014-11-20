@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "description": "Visualiza o salário de professores na página do professor no site dos intitutos. Por enquanto apenas ICMC.",
   "permissions": [
-    "http://localhost:5000/*"
+    "http://brorlandi.me/salariosusp/*"
   ],
   "icons": {
     "48" : "USP-48.png",

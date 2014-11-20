@@ -53,7 +53,7 @@ var n = this,
     $.ajax({
       crossDomain: true,
       dataType: 'json',
-      url: 'http://localhost:5000/icmc/'+id,
+      url: 'http://brorlandi.me/salariosusp/icmc/'+id,
       error: function(jqXHR, textStatus, errorThrown){
         setMsg("Ocorreu um erro no servidor!<br>"+errorThrown);
       },
