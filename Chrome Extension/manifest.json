@@ -13,7 +13,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://www.icmc.usp.br/Portal/Pessoas/*"],
+      "matches": ["http://www.icmc.usp.br/Portal/Pessoas/*","http://icmc.usp.br/Portal/Pessoas/*"],
       "js" : ["jquery-2.1.1.min.js", "contentscript.js"],
       "css" : ["styles.css"]
     }
