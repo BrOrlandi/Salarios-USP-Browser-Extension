@@ -6,6 +6,7 @@
   "permissions": [
     "http://brorlandi.me/salariosusp/*"
   ],
+  "author": "Bruno Orlandi",
   "icons": {
     "48" : "USP-48.png",
     "128" : "USP-128.png"
