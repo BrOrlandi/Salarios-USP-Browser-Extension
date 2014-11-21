@@ -35,7 +35,7 @@ var n = this,
 (function start(){
 
   function loading(){
-    var str = "<div id='salario_usp' class='salario_usp_info'>Carregando...</div>";
+    var str = "<div id='salarios_usp' class='salario_usp_info'><div id='salario_usp_data'>Carregando...</div><div class='salarios_usp_nusp'></div></div>";
     e = $(".flt-left.desc_pessoa h1");
     if(e){
       e.after(str);
@@ -43,19 +43,19 @@ var n = this,
   }
 
   function setMsg(msg){
-    $("#salario_usp").html(msg);
+    $("#salario_usp_data").html(msg);
   }
 
   loading();
 	id = QueryString.id;
 	if(id != undefined){
-
+	$('.salarios_usp_nusp').html("Número USP: "+id/2);
     $.ajax({
       crossDomain: true,
       dataType: 'json',
       url: 'http://brorlandi.me/salariosusp/icmc/'+id,
       error: function(jqXHR, textStatus, errorThrown){
-        setMsg("Ocorreu um erro no servidor!<br>"+errorThrown);
+        setMsg("Ocorreu um erro no servidor!<br>");
       },
       success: function(data){
         if(data.code == 1){
@@ -78,7 +78,7 @@ var n = this,
           "Salário: <span class='salario_usp_sal'>R$ "+sal+"</span><br>"+
           "Anos na USP: <span class='salario_usp_anos'>"+anos+"</span>";
 
-          $("#salario_usp").html(str);
+          $("#salario_usp_data").html(str);
 
         }
       }
