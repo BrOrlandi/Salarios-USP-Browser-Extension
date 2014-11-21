@@ -1,0 +1,23 @@
+.salario_usp_info {
+	color: black;
+    border-width: 2px;
+    border-color: rgb(75, 181, 32);
+    border-style: solid;
+    padding: 5px;
+}
+
+.salario_usp_sal {
+    color: rgb(75, 181, 32);
+    font-weight: bold;
+}
+
+.salario_usp_anos {
+    font-weight: bold;
+}
+.salario_usp_nome {
+    font-weight: bold;
+}
+
+.salarios_usp_nusp{
+    font-weight: bold;
+}

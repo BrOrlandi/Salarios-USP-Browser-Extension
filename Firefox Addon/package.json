@@ -1,0 +1,15 @@
+{
+	"name": "salarios_usp",
+	"title": "Salários USP",
+	"id": "jid1-9qe81oEQQV1nRA",
+	"description": "Visualiza o salário de professores na página do professor no site dos intitutos. Por enquanto apenas ICMC.",
+	"author": "Bruno Orlandi",
+	"license": "MPL 2.0",
+	"version": "1.0",
+	"permissions": {
+		"cross-domain-content": ["http://brorlandi.me/"]
+	},
+	"homepage":"http://brorlandi.me/salariosusp",
+	"icon":"data/USP-48.png",
+	"icon64":"data/USP-128.png"
+}
