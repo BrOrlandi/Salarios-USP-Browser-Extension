@@ -9,5 +9,5 @@ Em breve para outros institutos.
 
 # Instalação
 
-[Chrome](https://chrome.google.com/webstore/developer/edit/ngcnphgdimpjefffddklcgldjopkdcem?hl=pt-BR)
-[Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/sal%C3%A1rios-usp/)
+- [Chrome](https://chrome.google.com/webstore/developer/edit/ngcnphgdimpjefffddklcgldjopkdcem?hl=pt-BR)
+- [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/sal%C3%A1rios-usp/)
